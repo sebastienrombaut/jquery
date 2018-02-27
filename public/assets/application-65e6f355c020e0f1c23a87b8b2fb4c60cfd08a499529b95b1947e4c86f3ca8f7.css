@@ -1,0 +1,110 @@
+/* line 5, /Users/sebastienrombaut/Desktop/Code/THP/S8_Javascript/J2 - JQuery- restaurant/restaurant_jquery/app/assets/stylesheets/home.scss */
+h1, h2 {
+  text-align: center;
+}
+
+/* line 9, /Users/sebastienrombaut/Desktop/Code/THP/S8_Javascript/J2 - JQuery- restaurant/restaurant_jquery/app/assets/stylesheets/home.scss */
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 16, /Users/sebastienrombaut/Desktop/Code/THP/S8_Javascript/J2 - JQuery- restaurant/restaurant_jquery/app/assets/stylesheets/home.scss */
+.menu div {
+  padding: 10px;
+}
+
+/* line 20, /Users/sebastienrombaut/Desktop/Code/THP/S8_Javascript/J2 - JQuery- restaurant/restaurant_jquery/app/assets/stylesheets/home.scss */
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* line 25, /Users/sebastienrombaut/Desktop/Code/THP/S8_Javascript/J2 - JQuery- restaurant/restaurant_jquery/app/assets/stylesheets/home.scss */
+.content {
+  text-align: center;
+}
+
+/* line 29, /Users/sebastienrombaut/Desktop/Code/THP/S8_Javascript/J2 - JQuery- restaurant/restaurant_jquery/app/assets/stylesheets/home.scss */
+ul {
+  list-style: none;
+  text-align: center;
+  border: 2px groove black;
+  border-radius: 10px;
+  background-color: #009ADE;
+  color: #FCFFF5;
+  font-weight: 500;
+  margin: auto;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+/* line 44, /Users/sebastienrombaut/Desktop/Code/THP/S8_Javascript/J2 - JQuery- restaurant/restaurant_jquery/app/assets/stylesheets/home.scss */
+#menu:hover, #presentation:hover, #bieng:hover {
+  color: white;
+  background-color: grey;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+/* line 51, /Users/sebastienrombaut/Desktop/Code/THP/S8_Javascript/J2 - JQuery- restaurant/restaurant_jquery/app/assets/stylesheets/home.scss */
+#img1, #img2, #img3, #img4 {
+  height: 200px;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+/* line 58, /Users/sebastienrombaut/Desktop/Code/THP/S8_Javascript/J2 - JQuery- restaurant/restaurant_jquery/app/assets/stylesheets/home.scss */
+#big_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 63, /Users/sebastienrombaut/Desktop/Code/THP/S8_Javascript/J2 - JQuery- restaurant/restaurant_jquery/app/assets/stylesheets/home.scss */
+#container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* line 70, /Users/sebastienrombaut/Desktop/Code/THP/S8_Javascript/J2 - JQuery- restaurant/restaurant_jquery/app/assets/stylesheets/home.scss */
+#left, #right {
+  margin: 10px;
+}
+
+/* line 74, /Users/sebastienrombaut/Desktop/Code/THP/S8_Javascript/J2 - JQuery- restaurant/restaurant_jquery/app/assets/stylesheets/home.scss */
+#carousel {
+  margin: 80px auto;
+  position: relative;
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+/* line 83, /Users/sebastienrombaut/Desktop/Code/THP/S8_Javascript/J2 - JQuery- restaurant/restaurant_jquery/app/assets/stylesheets/home.scss */
+#carousel > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
