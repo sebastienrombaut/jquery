@@ -28,6 +28,8 @@ $bieng = $("#bieng");
 $presentation_list = $("#presentation_list");
 $menu_list = $("#menu_list");
 $bieng_list = $("#bieng_list");
+$left = $("#left");
+$right = $("#right");
 
 $presentation_list.hide();
 $menu_list.hide();
@@ -50,5 +52,34 @@ $bieng.on('click', function() {
     $presentation_list.slideUp();
 	$bieng_list.slideDown();
 });
+
+$("#carousel > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#carousel > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#carousel');
+}, 5000);
+
+$right.on('click', function() {
+    $('#carousel > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#carousel');
+});
+
+$left.on('click', function() {
+    $('#carousel > div:first')
+    .fadeOut(1000)
+    $('#carousel > div:last')
+    .fadeIn(1000)
+    .prependTo('#carousel');
+});
+
 
 })
